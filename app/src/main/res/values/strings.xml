@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">E-Learning Smantigda</string>
+    <string name="title_activity_materipelajaran">materipelajaran</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="auth_failed">Login gagal</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="nis">Nomor Induk Siswa</string>
+    <string name="register_caption">Dont have an account? Register</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="first_name">Nama Depan</string>
+    <string name="last_name">Nama Belakang</string>
+    <string name="logout">Keluar</string>
+    <string name="minimum_password">Password tidak sesuai</string>
+    <string name="greeting">Hi, %s :)</string>
+    <string name="judulmenujadwal">Jadwal Pelajaran</string>
+    
+    <array name="sasaran">
+        <item>Siswa</item>
+        <item>Pengajar</item>
+        <item>OSIS</item>
+        <item>MPR</item>
+        <item>Ekstrakulikuler</item>
+        <item>Labolatorium</item>
+        <item>Lain-lain</item>
+    </array>
+    
+    <string-array name="kelas">
+        <item>Kelas X1</item>
+        <item>Kelas X2</item>
+        <item>Kelas XI IPA </item>
+        <item>Kelas X1 IPS</item>
+        <item>Kelas X1 Bahasa</item>
+        <item>Kelas XII IPA </item>
+        <item>Kelas X1I IPS</item>
+        <item>Kelas X1I Bahasa</item>
+
+    </string-array>
+
+    <string name="firebase_location" translatable="false">https://recyclerview.firebaseio.com/</string>
+</resources>

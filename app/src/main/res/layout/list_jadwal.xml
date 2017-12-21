@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    tools:context=".JadwalPelajaran.JadwalPelajaranList">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/cardview_default_elevation"
+        android:elevation="3dp">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jamke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jam ke-1"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/matpel"
+                android:layout_below="@+id/jamke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mata Pelajaran"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:id="@+id/waktu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="00.00 - 00.00"
+                android:layout_below="@+id/matpel"/>
+
+            <TextView
+                android:id="@+id/ruang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ruang"
+                android:layout_below="@id/waktu"/>
+
+            <TextView
+                android:id="@+id/pengajar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pengajar"
+                android:layout_below="@id/ruang"
+                />
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

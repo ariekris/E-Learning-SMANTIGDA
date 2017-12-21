@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "617145744721",
+    "firebase_url": "https://e-learning-smantigda-373d7.firebaseio.com",
+    "project_id": "e-learning-smantigda-373d7",
+    "storage_bucket": "e-learning-smantigda-373d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617145744721:android:ec8e2d8dc1c7b513",
+        "android_client_info": {
+          "package_name": "com.v1.e_learningsmantigda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617145744721-pn5eb0tlcc1hlbf4blsm11o9eoffgcg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.v1.e_learningsmantigda",
+            "certificate_hash": "11a5f1c5a68e76759a866df38a0f560cc10d13a9"
+          }
+        },
+        {
+          "client_id": "617145744721-4tujlvhf4apmp3us4eu7cdrdh5r0gmu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFAiRKkOQL4DR9N3UI8HStsCOf6bvQKcw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617145744721-4tujlvhf4apmp3us4eu7cdrdh5r0gmu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

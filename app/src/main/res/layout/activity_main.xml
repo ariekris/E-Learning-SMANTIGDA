@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:background="@drawable/bgmenunew"
+    tools:context="com.v1.e_learningsmantigda.MainActivity">
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center_vertical|center"
+        android:paddingTop="85dp"
+        android:text="Selamat datang di Elearning SMAN 3 Sidoarjo" />
+
+    <GridView
+        android:paddingTop="100dp"
+        android:id="@+id/grid_view_image_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="110dp"
+        android:gravity="center"
+        android:numColumns="3">
+
+    </GridView>
+
+
+</RelativeLayout>
+
+
+
+
